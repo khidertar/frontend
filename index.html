@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Salad</title>
+    <script defer src="./bundle.js"></script> 
+    <!-- reference to bundle, which has js files, defer tag stops script from running until html loaded -->
 </head>
 <body>
     <section id="inputSection">
         <form>
+            <label for="fruitInput">Enter fruit here</label>
             <input id="fruitInput" name="fruit" type="text" placeholder="Eg. Banana">
+            <input type="submit" value="submit">
         </form>
     </section>
     <section id="fruitSection"></section>
