@@ -1,0 +1,6 @@
+fetch and dom api's
+promise pending - asynchronous, pending means status
+check what cors error means (cross origin resource sharing)
+
+.then to chain function calls
+catch at the end to catch failures/errors
